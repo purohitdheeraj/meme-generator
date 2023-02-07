@@ -1,4 +1,7 @@
 ## Meme-Generator
 
--   [ ] Design
--   [ ]
+-   [X] Design
+-   [ ] Events 
+-   [ ] States
+-   [ ] Side Effect
+-   [ ] Forms
