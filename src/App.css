@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Inter", sans-serif;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.6rem;
+	height: 100vh;
+	max-width: 128rem;
+	margin: 0 auto;
+	border: 1px solid;
+}
+
+#root {
+	height: 100%;
+}
+
+.App {
+	background: rgba(255, 255, 255, 1);
+	height: inherit;
+}
+
+.nav {
+	background: linear-gradient(
+		90deg,
+		#672280 1.18%,
+		#a626d3 100%
+	);
+	color: rgba(255, 255, 255, 1);
+	display: flex;
+	padding: 2rem;
+	align-items: center;
+}
+
+.nav--logo {
+	height: 2.6rem;
+	width: 3.2rem;
+}
+
+.nav--title {
+	margin-left: 6px;
+	font-weight: 500;
+	font-size: 2rem;
+}
+
+.nav--sub-title {
+	margin-left: auto;
+	font-weight: 500;
+	font-size: 1.2rem;
+}
