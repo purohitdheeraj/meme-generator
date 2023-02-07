@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Inter", sans-serif;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.6rem;
+	height: 100vh;
+	max-width: 128rem;
+	margin: 0 auto;
+	border: 1px solid;
+}
+
+#root {
+	height: 100%;
+}
+
+.App {
+	background: rgba(255, 255, 255, 1);
+	height: inherit;
+}
+
+.nav {
+	background: linear-gradient(
+		90deg,
+		#672280 1.18%,
+		#a626d3 100%
+	);
+	color: rgba(255, 255, 255, 1);
+	display: flex;
+	padding: 2rem;
+	align-items: center;
+}
+
+.nav--logo {
+	height: 2.6rem;
+	width: 3.2rem;
+}
+
+.nav--title {
+	margin-left: 6px;
+	font-weight: 500;
+	font-size: 2rem;
+}
+
+.nav--sub-title {
+	margin-left: auto;
+	font-weight: 500;
+	font-size: 1.2rem;
+}
+
+.form {
+	padding: 3.6rem;
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 48rem;
+	margin: 1.6rem auto;
+	justify-content: space-between;
+	column-gap: 8px;
+}
+
+.form--input {
+	flex: 1 1 20rem;
+	padding: 1rem;
+	border-radius: 5px;
+	font-size: 1.2rem;
+	border: 1px solid rgba(213, 212, 216, 1);
+}
+
+.form--btn {
+	flex: 1 1 100%;
+	border: 0;
+	padding: 1rem;
+	text-align: center;
+	border-radius: 5px;
+	background: linear-gradient(
+		90.41deg,
+		#711f8d 1.14%,
+		#a818da 100%
+	);
+	margin-top: 1.5rem;
+	color: rgba(255, 255, 255, 1);
+	font-size: 1.6rem;
+	font-weight: 600;
+	cursor: pointer;
+}
