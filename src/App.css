@@ -53,3 +53,39 @@ body {
 	font-weight: 500;
 	font-size: 1.2rem;
 }
+
+.form {
+	padding: 3.6rem;
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 48rem;
+	margin: 1.6rem auto;
+	justify-content: space-between;
+	column-gap: 8px;
+}
+
+.form--input {
+	flex: 1 1 20rem;
+	padding: 1rem;
+	border-radius: 5px;
+	font-size: 1.2rem;
+	border: 1px solid rgba(213, 212, 216, 1);
+}
+
+.form--btn {
+	flex: 1 1 100%;
+	border: 0;
+	padding: 1rem;
+	text-align: center;
+	border-radius: 5px;
+	background: linear-gradient(
+		90.41deg,
+		#711f8d 1.14%,
+		#a818da 100%
+	);
+	margin-top: 1.5rem;
+	color: rgba(255, 255, 255, 1);
+	font-size: 1.6rem;
+	font-weight: 600;
+	cursor: pointer;
+}
