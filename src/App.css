@@ -10,10 +10,8 @@ html {
 
 body {
 	font-size: 1.6rem;
-	height: 100vh;
 	max-width: 128rem;
 	margin: 0 auto;
-	border: 1px solid;
 }
 
 #root {
@@ -88,4 +86,14 @@ body {
 	font-size: 1.6rem;
 	font-weight: 600;
 	cursor: pointer;
+}
+
+.display--image {
+	padding: 3.6rem;
+	max-width: 48rem;
+	margin: 0 auto;
+}
+
+.meme--image {
+	max-width: 100%;
 }
