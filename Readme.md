@@ -1,10 +1,10 @@
 ## Meme-Generator
 
 -   [x] Design
--   [ ] Events
--   [ ] States
--   [ ] Side Effect
--   [ ] Forms
+-   [x] Events
+-   [x] States
+-   [x] Side Effect
+-   [x] Forms
 
 # props vs state
 
